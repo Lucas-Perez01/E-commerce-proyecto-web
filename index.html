@@ -3,7 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>BlueWave</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/Logo.jpg"
+      type="image/jpg"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="nav-menu">
+        <div class="nav-logo">
+          <img src="../assets/icons/Logo.jpg" alt="Logo de la página" />
+        </div>
+
+        <div class="nav-items-list">
+          <ul class="nav-items">
+            <li class="nav-item"><a href="">Shop</a></li>
+            <li class="nav-item dropdown">
+              <a href="#">Móviles</a>
+              <div class="nav-menu-dropdown">
+                <div class="nav-menu-dropdown-content">
+                  <div class="nav-menu-dropdown-item">
+                    <img
+                      src="../assets/NavImg/Galaxy-Smartphone.jpg"
+                      alt="Galaxy Smartphone"
+                    />
+                    <span>Galaxy Smartphone</span>
+                  </div>
+                  <div class="nav-menu-dropdown-item">
+                    <img
+                      src="../assets/NavImg/Galaxy-Tab.jpg"
+                      alt="Galaxy Tab"
+                    />
+                    <span>Galaxy Tab</span>
+                  </div>
+                  <div class="nav-menu-dropdown-item">
+                    <img
+                      src="../assets/NavImg/Galaxy-Book.jpg"
+                      alt="Galaxy Book"
+                    />
+                    <span>Galaxy Book</span>
+                  </div>
+                  <div class="nav-menu-dropdown-item">
+                    <img
+                      src="../assets/NavImg/Galaxy-Watch.jpg"
+                      alt="Galaxy Watch"
+                    />
+                    <span>Galaxy Watch</span>
+                  </div>
+                  <div class="nav-menu-dropdown-item">
+                    <img
+                      src="../assets/NavImg/Galaxy-Buds.jpg"
+                      alt="Galaxy Buds"
+                    />
+                    <span>Galaxy Buds</span>
+                  </div>
+                  <div class="nav-menu-dropdown-item">
+                    <img
+                      src="../assets/NavImg/Accesorios-para-Galaxy.jpg"
+                      alt="Accesorios para Galaxy"
+                    />
+                    <span>Accesorios para Galaxy</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item"><a href="">TV & AV</a></li>
+            <li class="nav-item"><a href="">Electrodomésticos</a></li>
+            <li class="nav-item"><a href="">Computadoras y Monitores</a></li>
+            <li class="nav-item"><a href="">Accesorios</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-buttons">
+          <button class="nav-button-search" aria-label="Búsqueda">
+            <ion-icon name="search-outline"></ion-icon>
+            <span>Búsqueda</span>
+          </button>
+
+          <a href="" class="nav-links" aria-label="Carrito">
+            <ion-icon name="cart-outline"></ion-icon>
+          </a>
+
+          <a href="" class="nav-links" aria-label="Perfil de usuario">
+            <ion-icon name="person-outline"></ion-icon>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="samsung-video-container">
+        <video
+          src="../assets/videos/Galaxy-Z-Fold7_Home_Hero_PC_1920x1080_LTR.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+        ></video>
+      </div>
+
+      <div class="samsung-new-odyssey">
+        <img src="../assets/img/New-odyssey-banner.jpeg" alt="" />
+      </div>
+
+      <section class="category-section">
+        <div class="category-grid">
+          <a href="" class="category-card">
+            <div class="category-image">
+              <img
+                src="../assets/img/MDVD_Feature_Card1_560X560.jpg"
+                alt="Neo QLED 8k"
+              />
+            </div>
+            <div class="category-info">
+              <span class="show-all-span">Ver todo</span>
+            </div>
+          </a>
+
+          <a href="" class="category-card">
+            <div class="category-image">
+              <img
+                src="../assets/img/MDVD_Feature_Card2_560X560.jpg"
+                alt="Neo QLED 8k"
+              />
+            </div>
+            <div class="category-info">
+              <span class="show-all-span">Ver todo</span>
+            </div>
+          </a>
+
+          <a href="" class="category-card">
+            <div class="category-image">
+              <img
+                src="../assets/img/MDVD_Feature_Card3_560X560.jpg"
+                alt="Neo QLED 8k"
+              />
+            </div>
+            <div class="category-info">
+              <span class="show-all-span">Ver todo</span>
+            </div>
+          </a>
+
+          <a href="" class="category-card">
+            <div class="category-image">
+              <img
+                src="../assets/img/BannersMonitor_FeatureProdcutcard.jpg"
+                alt="Neo QLED 8k"
+              />
+            </div>
+            <div class="category-info">
+              <span class="show-all-span">Ver todo</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Iconos de ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
