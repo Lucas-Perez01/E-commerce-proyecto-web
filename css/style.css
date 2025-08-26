@@ -54,7 +54,8 @@ body {
 
 /* --- MEGA MENU --- */
 .nav-menu-dropdown {
-  display: none;
+  opacity: 0;
+  transform: translateY(20px);
   position: absolute;
   left: 0;
   right: 0;
@@ -62,10 +63,14 @@ body {
   background-color: white;
   padding: 20px 0;
   z-index: 1000;
+  visibility: hidden;
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .nav-item:hover .nav-menu-dropdown {
-  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
 }
 
 .nav-menu-dropdown-content {
